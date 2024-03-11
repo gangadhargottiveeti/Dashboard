@@ -1,0 +1,27 @@
+.hover{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hover:hover{
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    background-color: #e89d51;
+}
+
+.custom-courses{
+    height: 90vh;
+}
+
+.sectionButton{
+    background-color: #e89d51;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sectionButton:active{
+    background-color: #e89d51;
+}
